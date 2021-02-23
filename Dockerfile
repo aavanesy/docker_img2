@@ -1,4 +1,4 @@
-FROM rexyai/restrserve
+FROM rocker/tidyverse
 
 RUN apt-get update -qq \
     && apt-get -y --no-install-recommends install \
